@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b448eb-739f-4edd-bb43-d2380fa7913c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Rover.java" afterPath="$PROJECT_DIR$/src/main/Rover.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Parser.java" afterPath="$PROJECT_DIR$/src/main/Parser.java" />
     </list>
     <ignored path="MarsRover.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rover.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="24" selection-start="399" selection-end="399" vertical-scroll-proportion="0.49519232" vertical-offset="34" max-vertical-offset="450">
+            <state line="24" column="0" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
@@ -100,11 +100,11 @@
       <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+            <state line="28" column="61" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="780">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#347#357#0" expanded="true" />
-                <element signature="e#1268#1278#0" expanded="true" />
+                <element signature="e#1332#1342#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,21 +113,12 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="48" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+            <state line="14" column="23" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#592#602#0" expanded="true" />
                 <element signature="e#695#702#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cordinates.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Cordinates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="49" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -141,10 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Controller.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+            <state line="19" column="14" selection-start="644" selection-end="644" vertical-scroll-proportion="0.38636363" vertical-offset="115" max-vertical-offset="555">
               <folding>
                 <element signature="e#126#144#0" expanded="true" />
               </folding>
@@ -191,12 +182,12 @@
         <option value="$PROJECT_DIR$/src/main/CurrentPosition.java" />
         <option value="$PROJECT_DIR$/src/main/RoverInitialPosition.java" />
         <option value="$PROJECT_DIR$/src/main/Position.java" />
-        <option value="$PROJECT_DIR$/src/main/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/Factory.java" />
         <option value="$PROJECT_DIR$/src/main/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/Direction.java" />
         <option value="$PROJECT_DIR$/src/main/Rover.java" />
+        <option value="$PROJECT_DIR$/src/main/Parser.java" />
       </list>
     </option>
   </component>
@@ -302,6 +293,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -314,25 +306,19 @@
       <recent name="main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ControllerTest.sendInstructionsToRoverShouldSendInstructionsToRover">
-    <configuration default="false" name="ControllerTest.getCurrentPositionShouldBeAbleToGetCurrentPositionAfterParsingInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MarsRover" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;3 3\n1 2 N\nL L M&quot;" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="main" />
-      <option name="MAIN_CLASS_NAME" value="main.ControllerTest" />
-      <option name="METHOD_NAME" value="getCurrentPositionShouldBeAbleToGetCurrentPositionAfterParsingInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
+      <module name="MarsRover" />
       <envs />
-      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -590,7 +576,7 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ControllerTest.getCurrentPositionShouldBeAbleToGetCurrentPositionAfterParsingInput" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.ParserTest.parseInputToCurrentPositionShouldBeAbleToAcceptInputAndReturnCurrentPosition" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.ControllerTest.getInstructionsShouldReturnListOfInstructions" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.ParserTest.testShouldparseInputToListOfInstructions" />
@@ -598,11 +584,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ControllerTest.sendInstructionsToRoverShouldSendInstructionsToRover" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ParserTest.testShouldparseInputToListOfInstructions" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ControllerTest.getInstructionsShouldReturnListOfInstructions" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ParserTest.parseInputToCurrentPositionShouldBeAbleToAcceptInputAndReturnCurrentPosition" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ControllerTest.getCurrentPositionShouldBeAbleToGetCurrentPositionAfterParsingInput" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ControllerTest.sendInstructionsToRoverShouldSendInstructionsToRover" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ParserTest.testShouldparseInputToListOfInstructions" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ControllerTest.getInstructionsShouldReturnListOfInstructions" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ParserTest.parseInputToCurrentPositionShouldBeAbleToAcceptInputAndReturnCurrentPosition" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -634,14 +620,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33094555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33094555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -707,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Cordinates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="49" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Plateau.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="29" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="375">
@@ -737,22 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding>
-            <element signature="e#126#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Cordinates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="49" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
@@ -764,17 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="48" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#592#602#0" expanded="true" />
-            <element signature="e#695#702#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Factory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
@@ -782,13 +734,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Rover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.676259" vertical-offset="333" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+        <state line="28" column="61" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="780">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#347#357#0" expanded="true" />
-            <element signature="e#1268#1278#0" expanded="true" />
+            <element signature="e#1332#1342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="19" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="23" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#592#602#0" expanded="true" />
+            <element signature="e#695#702#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -800,17 +784,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Position.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Rover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="399" selection-end="399" vertical-scroll-proportion="0.49519232" vertical-offset="34" max-vertical-offset="450">
-          <folding />
+        <state line="19" column="14" selection-start="644" selection-end="644" vertical-scroll-proportion="0.38636363" vertical-offset="115" max-vertical-offset="555">
+          <folding>
+            <element signature="e#126#144#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

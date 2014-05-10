@@ -26,6 +26,7 @@ public class Parser {
 
     public Plateau getPlateau(String input) {
         int x_axis_boundary = Integer.parseInt(input.split("\n")[0].split(" ")[0]);
+        System.out.println(input.split("\n")[0].split(" ")[1]);
         int y_axis_boundary = Integer.parseInt(input.split("\n")[0].split(" ")[1]);
         Plateau plateau = new Plateau(x_axis_boundary , y_axis_boundary);
         return plateau;
