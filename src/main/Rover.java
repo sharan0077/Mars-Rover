@@ -1,25 +1,23 @@
 package main;
 
-/**
- * Created by gurushan on 5/7/14.
- */
 public class Rover {
-    public CurrentPosition currentPosition;
-    public String[] instructions;
+    public Position position;
 
-    public CurrentPosition getCurrentPosition() {
-        return currentPosition;
+    public Rover(int x , int y , Direction direction){
+        this.position = new Position(x,y,direction);
     }
 
-    public void setCurrentPosition(CurrentPosition currentPosition) {
-        this.currentPosition = currentPosition;
+    public Position move() {
+        return position.direction.getNextCoordinate(position);
+
     }
 
-    public String[] getInstructions() {
-        return instructions;
+    public Position turnLeft() {
+        position.direction =  position.direction.getLeft();
     }
 
-    public void setInstructions(String[] instructions) {
-        this.instructions = instructions;
+    public Position turnRight() {
+        position.direction = position.direction.getRight();
+        return position;
     }
 }
