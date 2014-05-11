@@ -9,7 +9,7 @@ public class Main {
         int x , y;
         Direction direction;
         Rover rover;
-        String input = "3 3\n1 2 N\nLLM";
+        String input = "5 5\n1 2 N\nLMLMLMLMM\n3 3 E\nMMRMMRMRRM";
         Parser parser = new Parser();
         Plateau plateau = parser.getPlateau(input);
         List<String[]> listOfInstructionsForRovers = parser.parseInputToListOfInstructions(input);

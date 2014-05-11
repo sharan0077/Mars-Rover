@@ -48,7 +48,7 @@ public class Direction{
     }
 
     public Position getNextCoordinate(Position position){
-       // setPosition(position);
+//       setPosition(position);
         if(position.direction.current.equalsIgnoreCase("N")) position.incrementY();
         if(position.direction.current.equalsIgnoreCase("S")) position.decrementY();
         if (position.direction.current.equalsIgnoreCase("E")) position.icrementX();

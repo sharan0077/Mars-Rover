@@ -7,7 +7,7 @@ import java.util.List;
 public class Parser {
 
     public String[] parseInputToInstructions(String input) {
-        return input.split(" ");
+        return input.split("");
     }
 
     public List<Position> parseInputToListOfPositionOfRovers(String cliInput){

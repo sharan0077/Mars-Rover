@@ -8,7 +8,6 @@ public class Rover {
     }
 
     public Position move() {
-        System.out.println("i am here");
         return position.direction.getNextCoordinate(position);
     }
 
