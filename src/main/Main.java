@@ -29,5 +29,9 @@ public class Main {
             listOfPositionOfRoversAfterMoving.add(
             controller.getPositionOfRoverAfterMoving(listOfRovers.get(i),listOfInstructionsForRovers.get(i),plateau));
         }
+        Formtter formatter = new Formtter();
+        String output = formatter.getFormattedOutput(listOfPositionOfRoversAfterMoving);
+        System.out.println("Positon of Rovers After Moving");
+        System.out.println(output);
     }
 }
