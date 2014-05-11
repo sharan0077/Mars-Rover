@@ -22,7 +22,8 @@ public class Controller {
             isRover_X_AxisOnBoundary = (x_axis == plateau.getX_axis_boundary()) || ( x_axis == 0 );
             isRover_Y_AxisOnBoundary = (y_axis == plateau.getY_axis_boundary()) || ( y_axis == 0 );
             if(instruction == "M" && isRover_X_AxisOnBoundary || isRover_Y_AxisOnBoundary)
-                return null;
+               return null;
+            System.out.println(instruction);
             rover.position = instructionSet.get(instruction);
 //            System.out.println(rover.position.x);
 //            System.out.println(rover.position.y);
