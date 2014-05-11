@@ -12,7 +12,7 @@ public class Parser {
 
     public List<Position> parseInputToListOfPositionOfRovers(String cliInput){
         List<Position> listOfPositionOfRovers = new ArrayList<Position>();
-        String[] input = cliInput.split("/n");
+        String[] input = cliInput.split("\n");
         String direction;
         int x , y;
         for (int i = 1 ; i < input.length ; i = i+2){

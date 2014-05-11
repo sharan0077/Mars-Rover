@@ -24,6 +24,10 @@ public class Controller {
             if(instruction == "M" && isRover_X_AxisOnBoundary || isRover_Y_AxisOnBoundary)
                 return null;
             rover.position = instructionSet.get(instruction);
+//            System.out.println(rover.position.x);
+//            System.out.println(rover.position.y);
+//            System.out.println(rover.position.direction.current);
+//            System.out.println("----------------------------------");
         }
         return rover.position;
     }
