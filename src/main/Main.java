@@ -9,7 +9,7 @@ public class Main {
         int x , y;
         Direction direction;
         Rover rover;
-        String input = args[0];
+        String input = "3 3\n1 2 N\nL L M";
         Parser parser = new Parser();
         Plateau plateau = parser.getPlateau(input);
         List<String[]> listOfInstructionsForRovers = parser.parseInputToListOfInstructions(input);
@@ -18,9 +18,9 @@ public class Main {
         Factory factory = new Factory();
         List<Rover> listOfRovers = new ArrayList<Rover>();
         for ( int i = 0; i < listOfInstructionsForRovers.size(); i++ ){
-            x = listOfPositionOfRovers.get(i).x;
-            y = listOfPositionOfRovers.get(i).y;
-            direction = listOfPositionOfRovers.get(i).direction;
+            x = listOfPositionOfRovers.get(i).getX();
+            y = listOfPositionOfRovers.get(i).getY();
+            direction = listOfPositionOfRovers.get(i).getDirection();
             rover = factory.createRover(x,y,direction);
             listOfRovers.add(rover);
         }

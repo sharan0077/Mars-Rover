@@ -23,7 +23,20 @@ public class Position {
         return this.x--;
     }
 
+    public int getX() {
+        return x;
+    }
+
+    public Direction getDirection() {
+        return direction;
+    }
+
+    public int getY() {
+        return y;
+    }
+
     public int decrementY(){
+
         return this.y--;
     }
 }

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b448eb-739f-4edd-bb43-d2380fa7913c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Formtter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Main.java" afterPath="$PROJECT_DIR$/src/main/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Parser.java" afterPath="$PROJECT_DIR$/src/main/Parser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Position.java" afterPath="$PROJECT_DIR$/src/main/Position.java" />
     </list>
     <ignored path="MarsRover.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,20 +93,26 @@
       <file leaf-file-name="Position.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Position.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="15" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-              <folding />
+            <state line="25" column="23" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="720">
+              <folding>
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parser.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.45454547" vertical-offset="205" max-vertical-offset="765">
+            <state line="18" column="27" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="765">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#347#357#0" expanded="true" />
-                <element signature="e#1268#1278#0" expanded="true" />
+                <element signature="e#332#342#0" expanded="true" />
+                <element signature="e#1253#1263#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,14 +127,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="35" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="645">
+            <state line="20" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.23636363" vertical-offset="196" max-vertical-offset="645">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#592#602#0" expanded="true" />
-                <element signature="e#695#702#0" expanded="true" />
+                <element signature="e#604#614#0" expanded="true" />
+                <element signature="e#707#714#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,14 +198,14 @@
         <option value="$PROJECT_DIR$/src/main/East.java" />
         <option value="$PROJECT_DIR$/src/main/CurrentPosition.java" />
         <option value="$PROJECT_DIR$/src/main/RoverInitialPosition.java" />
-        <option value="$PROJECT_DIR$/src/main/Position.java" />
         <option value="$PROJECT_DIR$/src/main/Factory.java" />
         <option value="$PROJECT_DIR$/src/main/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/Direction.java" />
         <option value="$PROJECT_DIR$/src/main/Rover.java" />
         <option value="$PROJECT_DIR$/src/main/Formtter.java" />
-        <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/Parser.java" />
+        <option value="$PROJECT_DIR$/src/main/Position.java" />
+        <option value="$PROJECT_DIR$/src/main/Main.java" />
       </list>
     </option>
   </component>
@@ -323,7 +328,7 @@
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;3 3\n1 2 N\nL L M&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -759,13 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Rover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="43" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
@@ -777,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="15" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Formtter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="22" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
@@ -791,24 +782,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="35" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="645">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#592#602#0" expanded="true" />
-            <element signature="e#695#702#0" expanded="true" />
-          </folding>
+        <state line="24" column="0" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.45454547" vertical-offset="205" max-vertical-offset="765">
+        <state line="18" column="27" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="765">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#347#357#0" expanded="true" />
-            <element signature="e#1268#1278#0" expanded="true" />
+            <element signature="e#332#342#0" expanded="true" />
+            <element signature="e#1253#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="23" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="720">
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.23636363" vertical-offset="196" max-vertical-offset="645">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#614#0" expanded="true" />
+            <element signature="e#707#714#0" expanded="true" />
           </folding>
         </state>
       </provider>
