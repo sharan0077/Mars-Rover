@@ -6,11 +6,11 @@ public class Controller {
 
     HashMap<String,Position> instructionSet = new HashMap<String, Position>();
 
-    private void instructRover(Rover rover){
-        instructionSet.put("L",rover.turnLeft());
-        instructionSet.put("R",rover.turnRight());
-        instructionSet.put("M",rover.move());
-    }
+//    private void instructRover(Rover rover){
+//        instructionSet.put("L",rover.turnLeft());
+//        instructionSet.put("R",rover.turnRight());
+//        instructionSet.put("M",rover.move());
+//    }
 
     public Position getPositionOfRoverAfterMoving(Rover rover, String[] instructions , Plateau plateau){
         int x_axis , y_axis;
