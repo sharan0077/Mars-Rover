@@ -13,6 +13,7 @@ public class Rover {
     }
 
     public Position turnLeft() {
+        System.out.println("i m in rover turn left");
         position.direction =  position.direction.getLeft();
         System.out.println(position.direction.current);
         return position;

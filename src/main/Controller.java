@@ -15,7 +15,7 @@ public class Controller {
     public Position getPositionOfRoverAfterMoving(Rover rover, String[] instructions , Plateau plateau){
         int x_axis , y_axis;
         boolean isRover_X_AxisOnBoundary, isRover_Y_AxisOnBoundary;
-        instructRover(rover);
+        //instructRover(rover);
         for (String instruction : instructions) {
             x_axis = rover.position.x;
             y_axis = rover.position.y;
@@ -23,8 +23,15 @@ public class Controller {
             isRover_Y_AxisOnBoundary = (y_axis == plateau.getY_axis_boundary()) || ( y_axis == 0 );
             if(instruction == "M" && isRover_X_AxisOnBoundary || isRover_Y_AxisOnBoundary)
                return null;
-            System.out.println(instruction);
-            rover.position = instructionSet.get(instruction);
+            //System.out.println(instruction);
+            //rover.position = instructionSet.get(instruction);
+            if(instruction == "L")
+                rover.position = rover.turnLeft();
+            System.out.println(rover.position.direction.current);
+            if(instruction == "R")
+                rover.position = rover.turnRight();
+            else
+                rover.position = rover.move();
 //            System.out.println(rover.position.x);
 //            System.out.println(rover.position.y);
 //            System.out.println(rover.position.direction.current);
