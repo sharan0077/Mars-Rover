@@ -36,7 +36,6 @@ public class Position {
     }
 
     public int decrementY(){
-
         return this.y--;
     }
 }

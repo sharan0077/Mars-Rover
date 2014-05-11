@@ -23,21 +23,14 @@ public class Controller {
             isRover_Y_AxisOnBoundary = (y_axis == plateau.getY_axis_boundary()) || ( y_axis == 0 );
             if(instruction == "M" && isRover_X_AxisOnBoundary || isRover_Y_AxisOnBoundary)
                return null;
-            //System.out.println(instruction);
             //rover.position = instructionSet.get(instruction);
-            if(instruction == "L")
+            if(instruction.equalsIgnoreCase("L"))
                 rover.position = rover.turnLeft();
-            System.out.println(rover.position.direction.current);
-            if(instruction == "R")
+            if(instruction.equalsIgnoreCase("R"))
                 rover.position = rover.turnRight();
-            else
+            if(instruction.equalsIgnoreCase("M"))
                 rover.position = rover.move();
-//            System.out.println(rover.position.x);
-//            System.out.println(rover.position.y);
-//            System.out.println(rover.position.direction.current);
-//            System.out.println("----------------------------------");
         }
         return rover.position;
     }
-
 }

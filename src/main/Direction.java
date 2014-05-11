@@ -12,12 +12,12 @@ public class Direction{
     HashMap<String, Direction> directionsOnLeft = new HashMap<String, Direction>();
     HashMap<String,Direction> directionsOnRight = new HashMap<String, Direction>();
 
-    private void setPosition(Position position){
-        nextCordinate.put("N", position.incrementY());
-        nextCordinate.put("S", position.decrementY());
-        nextCordinate.put("E", position.icrementX());
-        nextCordinate.put("W", position.decrementX());
-    }
+//    private void setPosition(Position position){
+//        nextCordinate.put("N", position.incrementY());
+//        nextCordinate.put("S", position.decrementY());
+//        nextCordinate.put("E", position.icrementX());
+//        nextCordinate.put("W", position.decrementX());
+//    }
 
     private void setLeft(){
         directionsOnLeft.put("N",new Direction("W"));
@@ -48,7 +48,11 @@ public class Direction{
     }
 
     public Position getNextCoordinate(Position position){
-        setPosition(position);
+       // setPosition(position);
+        if(position.direction.current.equalsIgnoreCase("N")) position.incrementY();
+        if(position.direction.current.equalsIgnoreCase("S")) position.decrementY();
+        if (position.direction.current.equalsIgnoreCase("E")) position.icrementX();
+        if(position.direction.current.equalsIgnoreCase("W")) position.decrementX();
         return position;
     }
 
